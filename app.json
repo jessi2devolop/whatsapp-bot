@@ -35,3 +35,5 @@
             "description": "Enter Your Heroku Account Api Key Get It From https://dashboard.heroku.com/account",
             "required": true
         }
+    }
+}
