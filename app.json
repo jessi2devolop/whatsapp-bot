@@ -5,7 +5,6 @@
     "logo": "https://i.imgur.com/T78fhJk.jpeg'",
     "keywords": ["whatsapp,bot,md,multi-device,Phoenix,Phoenix-MD"],
     "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
-    "stack": "container",
     "env": {
         "SESSION_ID": {
             "description": "Enter Your Session ID",
@@ -35,5 +34,13 @@
             "description": "Enter Your Heroku Account Api Key Get It From https://dashboard.heroku.com/account",
             "required": true
         }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
+    ]
 }
